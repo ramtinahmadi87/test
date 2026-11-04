@@ -16,8 +16,8 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/otp" element={<OTP />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/profile" element={< Footer/>} />
-        <Route path="/profile" element={<Header />} />
+        <Route path="/footer" element={< Footer/>} />
+        <Route path="/header" element={<Header />} />
 
       </Routes>
     </>
