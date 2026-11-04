@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Form from "./pages/Form";
 import OTP from "./pages/OTP";
 import Profile from "./pages/Profile";
+import Header from "./Header/Header";
+import Footer from "./footer/footer";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/otp" element={<OTP />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/profile" element={< Footer/>} />
+        <Route path="/profile" element={<Header />} />
+
       </Routes>
     </>
   )
